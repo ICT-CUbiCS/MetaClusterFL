@@ -38,7 +38,7 @@
 
 ```
 
-## 简单运行
+## 代码运行
 ```shell
 cd ./server
 python 'algo_name'.py # 按照需要启动不同的算法,例如 python fedavg.py

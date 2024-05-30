@@ -1,0 +1,30 @@
+{
+    "dataset": "CIFAR100",
+    "model": "lenet",
+
+    "num_classes": 100,
+    "num_client": 100,
+    "num_cluster": 10,
+
+    "balance": true,
+    "partition": "dirichlet",
+    "unbalance_sgm": 0.3,
+    "num_shards": 50,
+    "dir_alpha": 0.25,
+    "verbose": true,
+    "min_require_size": null,
+    "seed": 2023,
+
+    "local_ep": 5,
+    "local_bs": 32,
+    "lr": 0.01,
+
+    "hessian_free": false,
+    "per_beta": 0.001,
+    "per_alpha": 0.01,
+    "train_client_rate": 0.8,
+    "pers_epoch": 1,
+
+    "num_round": 600,
+    "eval_interval": 10
+}

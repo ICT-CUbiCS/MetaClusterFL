@@ -3,7 +3,7 @@
 安装所需的 python 包： `pip install -r requirements.txt`
 
 ## 配置说明
-```json
+```
 {
     "dataset": "CIFAR100",  # 根据data目录下子目录决定
     "model": "lenet",   # 根据./models/dataset目录下子目录决定
